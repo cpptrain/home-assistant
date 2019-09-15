@@ -2,6 +2,7 @@
 """Home Assistant setup script."""
 from datetime import datetime as dt
 from setuptools import setup, find_packages
+#test modify
 
 import homeassistant.const as hass_const
 
@@ -71,3 +72,5 @@ setup(
     test_suite="tests",
     entry_points={"console_scripts": ["hass = homeassistant.__main__:main"]},
 )
+
+# test modify
