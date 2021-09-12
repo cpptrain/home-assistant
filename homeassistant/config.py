@@ -12,6 +12,7 @@ from types import ModuleType
 import voluptuous as vol
 from voluptuous.humanize import humanize_error
 
+
 from homeassistant import auth
 from homeassistant.auth import (
     providers as auth_providers,
